@@ -1,4 +1,4 @@
-# 🏠 Bangalore House Price Predictor
+#  Bangalore House Price Predictor
 
 A machine learning web app to predict house prices in Bangalore using LightGBM.
 
@@ -6,39 +6,39 @@ A machine learning web app to predict house prices in Bangalore using LightGBM.
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model | R² Score |
 |-------|----------|
 | Linear Regression | 57.58% |
 | Random Forest | 80.20% |
 | XGBoost | 84.09% |
-| **LightGBM (Final)** | **95.06%** ✅ |
+| **LightGBM (Final)** | **95.06%**  |
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔮 Predict house prices in 50+ Bangalore locations
-- 🗺️ View best places & shopping malls in Bangalore
-- 🎓 Explore top schools & colleges
-- 📰 Real estate news & market updates
-- 📩 Contact form
+-  Predict house prices in 50+ Bangalore locations
+-  View best places & shopping malls in Bangalore
+-  Explore top schools & colleges
+-  Real estate news & market updates
+-  Contact form
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **ML Model** - LightGBM
 - **Backend** - FastAPI
 - **Frontend** - HTML, CSS, JavaScript
 - **Dataset** - Bengaluru Housing Dataset (Kaggle)
 
----
+
 
 ## ⚙️ Installation
 
-```bash
+bash
 # Clone the repo
 git clone https://github.com/SARAVANAKUMAR0911/Bangalore-house-price-prediction.git
 cd Bangalore-house-price-prediction
@@ -48,15 +48,13 @@ pip install fastapi uvicorn lightgbm scikit-learn pandas numpy
 
 # Run the app
 uvicorn app:app --reload
-```
+
 
 Open browser → `http://127.0.0.1:8000`
 
----
 
-## 📁 Project Structure
+ Project Structure
 
-```
 ├── app.py               # FastAPI backend
 ├── train.py             # Model training code
 ├── bangalore_model.pkl  # Trained LightGBM model
@@ -64,14 +62,6 @@ Open browser → `http://127.0.0.1:8000`
 ├── templates/
 │   └── index.html       # Frontend UI
 └── Bengaluru_House_Data.csv
-```
 
----
+**SARAVANAKUMAR P** - [@SARAVANAKUMAR0911](https://github.com/SARAVANAKUMAR0911)
 
-## 👨‍💻 Author
-
-**Saravana Kumar** - [@SARAVANAKUMAR0911](https://github.com/SARAVANAKUMAR0911)
-
----
-
-⭐ Star this repo if you found it useful!
