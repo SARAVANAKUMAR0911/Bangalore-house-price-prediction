@@ -56,11 +56,16 @@ Open browser → `http://127.0.0.1:8000`
  Project Structure
 
 ├── app.py               # FastAPI backend
+
 ├── train.py             # Model training code
+
 ├── bangalore_model.pkl  # Trained LightGBM model
+
 ├── locations.pkl        # Label encoder
+
 ├── templates/
 │   └── index.html       # Frontend UI
+
 └── Bengaluru_House_Data.csv
 
 **SARAVANAKUMAR P** - [@SARAVANAKUMAR0911](https://github.com/SARAVANAKUMAR0911)
